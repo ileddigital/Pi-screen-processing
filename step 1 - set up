@@ -1,0 +1,72 @@
+Step 1 - unbox and set up.
+We're setting up a PI 3 with a TFT resistive touch screen. 
+More open notes than specific tutorial
+
+ 
+
+Timing - 30 minutes + 1 hour download  + 15 minutes flash (devices will vary) 
+
+// Ingredients.
+
+A Pi 3
+Micro SD card 8GB
+SD card apapter - i'm lucky enough to have a mac with and SD card slot... 
+Power source - micro USB B 
+An Ada Fruit  PiTfT Plus 320x240 2.8" Resistive touch scren 
+http://adafru.it/2298
+
+We'll come back to Resistive Vs Capacative...
+
+I'm working on a MAC BOOK pro and have Processing 3 installed. 
+
+OK. That's it... 
+
+
+// Method
+
+Put SD card (using adapter) into the SD slot on your computer
+Download operating system Raspbian OS (ROS) with drivers for the TFT on it. 
+https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/easy-install
+
+This is Raspbian + drivers. If you just want Raspbian - go here. 
+from https://www.raspberrypi.org/downloads/raspbian/ 
+
+Once you've got this. 
+Expand ROS zip file it'll be a file in your downloads
+Burn the ROS onto the SD card - download Etcher from here https://etcher.io/ - and follow your normal setup process
+
+In Etcher
+Select image - it will be where your up-zipper placed it (probably same drive as the downloads) - file ends in .img
+Select drive - your SD slot on your computer
+Flash - this will take around 15 minutes 
+
+// Otis says don't forget to format the SD card before (and erase all the data) 
+
+While Etcher is flashing...
+ - build the hardware. 
+ - put the TFT screen into the PI GPIO pins. Simples... 
+ 
+WHEN it's done
+ - eject disk (you might not see it in finder so use disk utility)
+ 
+ Now we're ready to go. 
+ 
+ Put SD into the Pi. 
+ Power her up. 
+ 
+ You'll see LEDS flashing on the PI side and stuff on the screen - lots of text... then it'll open a minute or two later. 
+ 
+ // Otis is struggling with the screen size... ha - and he's got young eyes... 
+ 
+ Click on the PI logo on top left to open menu
+  -> accessories->terminal
+ 
+ // Otis-note - if you've a keyboard with a windows button you can use that to open the home menu
+ 
+ That's it we're ready to go! 
+ 
+ 
+  
+  
+  
+
