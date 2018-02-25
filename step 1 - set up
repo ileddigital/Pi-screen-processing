@@ -72,6 +72,10 @@ WHEN it's done
  
  https://stackoverflow.com/questions/22891235/how-to-change-screen-resolution-of-raspberry-pi
  
+ TIP - there's a problem in that the driver thinks the screen is bigger than it is. We're working on finding out how to correct this
+ (lots of things don't work)... BUT if you hold down ALT on your keyboard (CMD on mac) and left-click you can drag the screen 
+ around with the trackpad/mouse. 
+ 
  --------------------------------------------------------------------------------------------------
  screen no.2 - the pimoroni hyperpixel multiple touch (capacitive) 800x480
  
