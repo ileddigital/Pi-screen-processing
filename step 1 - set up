@@ -65,6 +65,15 @@ WHEN it's done
  
  That's it we're ready to go! 
  
+ // except that the screen resolution is too small - so we can't actually get to changing it through Raspbian windows... 
+ so we need to go into a terminal window
+ 
+ we looked here... 
+ 
+ https://stackoverflow.com/questions/22891235/how-to-change-screen-resolution-of-raspberry-pi
+ 
+ 
+ 
  
   
   
