@@ -4,8 +4,12 @@ use your laptop screen as your PI screen view
 A PI that's set up
 A Macbook pro 
 VNC Viewer from the web - https://www.realvnc.com/en/connect/download/viewer/
+Read this https://www.raspberrypi.org/magpi/vnc-raspberry-pi/
+
 
 
 
 // Method
 install VNC viewer
+follow instructions here https://www.raspberrypi.org/magpi/vnc-raspberry-pi/
+
