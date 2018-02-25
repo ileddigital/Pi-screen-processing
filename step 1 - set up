@@ -72,6 +72,27 @@ WHEN it's done
  
  https://stackoverflow.com/questions/22891235/how-to-change-screen-resolution-of-raspberry-pi
  
+ --------------------------------------------------------------------------------------------------
+ screen no.2 - the pimoroni hyperpixel multiple touch (capacitive) 800x480
+ 
+ the setup guide for this screen is here - https://github.com/pimoroni/hyperpixel
+ 
+ first of all start with the vanilla Raspbian OS found here - https://www.raspberrypi.org/downloads/raspbian/
+ 
+ then burn/flash Raspbian to your sd card using etcher
+ // remember to format the sd card first
+ 
+ boot it up using a seperate hdmi monitor
+ 
+ open terminal and execute the following command
+   
+       curl https://get.pimoroni.com/hyperpixel | bash
+ 
+ after this reboot using
+ 
+       sudo reboot
+       
+and it should work with the hyperpixel screen
  
  
  
